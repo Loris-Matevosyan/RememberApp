@@ -1,0 +1,39 @@
+#input-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.label {
+    text-align: left;
+    width: 6rem;
+}
+
+.input-field {
+    background-color: #d4f8de;
+    margin-right: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    border-radius: 6%;
+    width: 80%;
+    height: 1.2rem;
+    border: none;
+    outline: none    
+}
+
+@media (max-width: 576px)
+{
+    #input-row {
+        flex-direction: column;
+    }
+
+    .label {
+        width: 80%;
+        margin-bottom: 0.5rem;
+    }
+
+    .input-field {
+        width: 100%;
+        margin-right: 0;
+        max-width: 80%;
+    }
+}

@@ -1,0 +1,29 @@
+#home {
+    margin-top: 2rem;
+}
+
+#greeting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#header {
+    text-shadow: 1rem 1rem 0.8rem rgba(16, 68, 25, 0.5);
+    color: rgb(22, 11, 44);
+}
+
+#button-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+@media (max-width: 576px) {
+    #header {
+        font-size: 1.5rem;
+    }
+}

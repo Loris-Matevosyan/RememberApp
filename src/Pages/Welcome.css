@@ -1,0 +1,46 @@
+#welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    animation-name: form-appear;
+    animation-duration: 0.6s;
+}
+
+@keyframes form-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#logout-button {
+    width: 5rem;
+    height: 1.6rem;
+    align-self: flex-end;
+    margin-right: 4rem;
+}
+
+#input-content {
+  max-width: 22rem;
+}
+
+#submit-button {
+    width: 7rem;
+    height: 2.7rem;
+}
+
+
+@media (max-width: 576px) {
+    #logout-button {
+        margin-right: 2rem;
+    }
+
+    #welcome-header {
+        max-width: 80%;
+        font-size: 1.5rem;
+    }
+}

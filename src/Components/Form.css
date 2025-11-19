@@ -1,0 +1,60 @@
+#form-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    animation-name: form-appear;
+    animation-duration: 1s;
+}
+
+@keyframes form-appear {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#form-container {
+    background-color: #269552;
+    color: white;
+    width: 20rem;
+    padding: 0.5rem 2rem 2rem 2rem;
+    border-radius: 5%;
+    box-shadow: 0 2rem 2rem rgba(21, 5, 5, 0.2);
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#form-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+}
+
+#submit-button {
+    align-self: center;
+    margin-top: 1.5rem;
+    width: 100%;
+    background-color: #00a173;
+    color: white;
+    border: none;
+    padding: 0.7rem;
+    border-radius: 5%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+@media (max-width: 576px) {
+    #form-container {
+        width: 17rem;
+        padding: 0rem 1.5rem 1.5rem 1.3rem;
+    }
+}

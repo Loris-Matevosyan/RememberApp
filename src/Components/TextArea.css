@@ -1,0 +1,27 @@
+#text-area-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+#text-area {
+    width: 20rem;
+    height: 8rem;
+    resize: none;
+    font-size: 1rem;
+    font-family: 'Sansita', sans-serif;
+    outline: none;
+    border: 0.4rem solid #8CE6C0;
+    border-radius: 3%;
+    background-color: #8CE6C0;
+    box-shadow: 0.5rem 0.5rem 3rem rgb(8, 74, 52);
+}
+
+@media (max-width: 576px) {
+    #text-area {
+        width: 16rem;
+        height: 6rem;
+        font-size: 0.9rem;
+    }
+}
